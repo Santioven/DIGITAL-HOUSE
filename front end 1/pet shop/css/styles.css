@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.head-pie {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.topright {
+
+
+}
+
+#ofertastop {
+    justify-content: flex-start;
+    justi
+}
+
+.sinestilo {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+
+}
+
+.barranav {
+    background-color: #F0A83E;
+    display: flex;
+    align-items: center;
+    padding-top:20px;
+    padding-bottom:20px;
+    justify-content: space-between;
+}
+
+.logotop {
+    margin: 20px;
+}
+
+.selecciones {
+    color: white;
+    margin-right: 15px;
+    flex-direction: row;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+
+}
+
+.muslo {
+    width: 20px;
+    margin-right: 4px;
+    margin-left: 6px;
+}
+
+#banner {
+    background-image: url('../img/bowl-and-pet-daities-on-green-background\ 1bowl.png');
+    background-size: cover;
+    display: flex;
+    height: 600px;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    align-self: center;
+}
+
+.boton-comederos {
+    background-color: #F0A83E;
+
+}
+
+#pata {
+    width: 67px;
+    height: 71px;
+    top: 510px;
+    left: 479px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#productos-destacados {
+    font-family: Roboto;
+font-size: 40px;
+font-weight: 700;
+line-height: 47px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.body-tienda {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+
+.lista-productos {
+    font-family: 'Times New Roman', Times, serif;
+font-size: 15px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+display: flex;
+
+}
+
+.listaitems {
+    margin: 10px;
+    padding-bottom: 20px;
+}
+
+.productos {
+    font-family: 'Times New Roman', Times, serif;
+font-size: 15px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.precios {
+color: #F0A83E;
+
+}
+
+.suscribete {
+    background-color: #F0A83E;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactanos {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: static;
+}
+
+.contacto {
+
+}
+
+#ingresacorreo {
+    border-radius: 5px;
+}
+
+.itemspie {
+    background-color:#3C2313;
+    justify-content: space-around;
+
+}
+
+.itemsinfo {
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 23px;
+    line-height: 100%;
+    text-align: Left;
+    vertical-align: Top;
+}
+
+.pie-de-pag {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}

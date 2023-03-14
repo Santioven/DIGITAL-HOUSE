@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.barraVerde{
+    background-color: #1cd1b0;
+    color: black;
+    padding: 10px;
+}
+
+nav{
+    background-color: #00669f;
+    color: #000;
+    padding: 10px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.card{
+    display: inline;
+
+}
+
+footer{
+    color: white;
+    background-color: #00669f;
+    padding: 10px;
+}
+.card1 {
+
+    text-align: left;
+}
+
+.card2 {
+
+    text-align: center;
+}
+
+.card3 {
+
+    text-align: right;
+}

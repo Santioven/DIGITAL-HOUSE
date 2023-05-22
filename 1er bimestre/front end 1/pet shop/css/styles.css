@@ -1,0 +1,356 @@
+/*Comandos Universales*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Header top*/
+
+.head-pie {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.topright {
+    display: flex;
+
+}
+
+.top-item{
+    margin: 10px;
+}
+
+#ofertastop {
+    justify-content: flex-start;
+}
+
+/*End Header top*/
+
+/*Header*/
+
+.sinestilo {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+
+}
+
+.barranav {
+    background-color: #F0A83E;
+    display: flex;
+    align-items: center;
+    padding-top:20px;
+    padding-bottom:20px;
+    justify-content: space-between;
+}
+
+.logotop {
+    margin: 20px;
+}
+
+.selecciones {
+    color: white;
+    margin-right: 15px;
+    flex-direction: row;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+
+}
+
+.muslo {
+    width: 22px;
+    margin-right: 4px;
+    margin-left: 6px;
+}
+
+
+/*End Header*/
+
+/*Slider*/
+
+.banner {
+    background-image: url('../img/bowl-and-pet-daities-on-green-background\ 1bowl.png');
+    background-size: cover;
+    height: 600px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+
+#productos-destacados {
+    font-family: Roboto;
+font-size: 40px;
+font-weight: 700;
+line-height: 47px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.body-tienda {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+
+#h3 {
+    background-color: white;
+    font-size: 2rem;
+}
+
+.slider-item {
+    align-content: center;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+.boton-comederos {
+    background-color: #F0A83E;
+
+}
+
+
+/*End Slider*/
+
+/*Main*/
+
+#pata {
+    width: 67px;
+    height: 71px;
+    top: 510px;
+    left: 479px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+
+.lista-productos {
+    font-family: 'Times New Roman', Times, serif;
+font-size: 15px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+display: flex;
+
+}
+
+.listaitems {
+    margin: 10px;
+    padding-bottom: 20px;
+}
+
+.productos {
+    font-family: 'Times New Roman', Times, serif;
+font-size: 15px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+margin: 30px;
+
+}
+
+.productos-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.precios {
+color: #F0A83E;
+
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+.contact-section h4 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.form-group input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: #3C2313;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    color: white;
+}
+
+.form-group input:focus {
+    outline: none;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.button-group button {
+    background-color: #F0A83E;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.button-group button:hover {
+    background-color: #5f3107;
+}
+
+/*End Main*/
+
+/*Footer*/
+
+.suscribete {
+    background-color: #F0A83E;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.suscribete input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    color: black;
+}
+
+.sub-items {
+    display: flex;
+    align-items: center;
+}
+
+.sub-items img {
+    margin-right: 10px;
+}
+
+.sub-items button {
+    background-color: #3C2313;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.suscribete h4 {
+    font-size: 20px;
+}
+
+.itemspie {
+    background-color:#3C2313;
+    justify-content: space-around;
+
+}
+
+.itemsinfo {
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 23px;
+    line-height: 100%;
+    text-align: Left;
+    vertical-align: Top;
+}
+
+.pie-de-pag {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+/*End Footer*/
+
+@media screen and (max-width: 768px) {
+    .slider-item {
+        font-size: 1.5rem;
+        color: white;
+        background-color: #F0A83E;
+    }
+    #h3 {
+        font-size: 2rem;
+        color: black;
+    }
+}
+@media screen and (max-width: 768px) {
+    .barranav {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .barranav a {
+        font-size: 18px;
+    }
+
+    .barranav img {
+        height: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .productos-main {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+}

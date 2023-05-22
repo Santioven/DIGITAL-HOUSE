@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi libro infantil</title>
+	<style>
+		/* Aquí colocaremos nuestro código CSS */
+	</style>
+</head>
+<body>
+	<h1>Mi libro infantil</h1>
+	<p>Bienvenidos a mi libro infantil. En este libro
+        <!DOCTYPE html>
+<html>
+<head>
+	<title>Mi libro infantil</title>
+	<style>
+		/* Estilos generales */
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f5f5f5;
+			color: #333;
+			padding: 20px;
+		}
+
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+		}
+
+		h1, h2, h3 {
+			font-weight: normal;
+			margin-top: 0;
+			text-align: center;
+		}
+
+		p {
+			line-height: 1.5;
+			margin-bottom: 20px;
+			text-align: justify;
+		}
+
+		img {
+			display: block;
+			margin: 0 auto;
+			max-width: 100%;
+			height: auto;
+		}
+
+		/* Estilos de las páginas */
+		.page {
+			display: none;
+			position: relative;
+			min-height: 100vh;
+			padding-top: 50px;
+			box-sizing: border-box;
+		}
+
+		.page.active {
+			display: block;
+		}
+
+		.page .next-page {
+			position: absolute;
+			bottom: 50px;
+			right: 50px;
+			background-color: #fff;
+			padding: 10px 20px;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+
+		.page .next-page:hover {
+			background-color: #eee;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<!-- Portada -->
+		<div class="page active" id="portada">
+			<h1>Mi libro infantil</h1>
+			<img src="img/leon-feliz-dibujos-animados-aislado-sobre-fondo-blanco_29190-752.avif" alt="Portada del libro">
+			<p>Bienvenidos a mi libro infantil. En este libro, aprenderemos sobre diferentes animales.</p>
+			<div class="next-page" onclick="mostrarPagina('pagina1')">Empezar</div>
+		</div>
+
+		<!-- Página 1 -->
+		<div class="page" id="pagina1">
+			<h2>El perro</h2>
+			<img src="img/dibujos-animados-bebe-tigre-aislado_29190-5009.avif" alt="Perro">
+			<p>El perro es un animal doméstico muy leal y cariñoso. A menudo se le considera el mejor amigo del hombre. Hay muchas razas de perros, cada una con sus propias características y habilidades.</p>
+			<div class="next-page" onclick="mostrarPagina('pagina2')">Siguiente</div>
+		</div>
+
+		<!-- Página 2 -->
+		<div class="page" id="pagina2">
+			<h2>El gato</h2>
+			<img src="https://via.placeholder.com/800x600" alt="Gato">
+			<p>El gato es un animal independiente y elegante. A menudo se le considera un animal solitario, pero también puede ser muy cariñoso con sus dueños. Hay muchas razas de gatos, cada una con sus propias características y habilidades.</p>
+			<div class="next-page" onclick="mostrarPagina('pagina3')">Siguiente</div>
+		</div>
+
+		<!-- Página
+	3 -->
+	<div class="page" id="pagina3">
+		<h2>El león</h2>
+		<img src="https://via.placeholder.com/800x600" alt="León">
+		<p>El león es el rey de la selva. Es un animal majestuoso y poderoso, con una melena distintiva que lo hace fácilmente reconocible. Los leones viven en manadas y cazan en grupo para sobrevivir.</p>
+		<div class="next-page" onclick="mostrarPagina('portada')">Inicio</div>
+	</div>
+</div>
+
+<script>
+	function mostrarPagina(id) {
+		document.getElementById(id).classList.add("active");
+		document.querySelector(".active").classList.remove("active");
+	}
+</script>
+</body>
+</html>

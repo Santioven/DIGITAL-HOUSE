@@ -1,0 +1,158 @@
+*{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+}
+
+body{
+        font-family: 'Roboto', sans-serif;
+}
+
+.container{
+        margin: 16px;
+}
+
+
+/*-------- Estilos del header ---------*/
+
+header{
+        background-color: rgb(50,50,50);
+        padding: 10px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.logotipo{
+        padding: 16px;
+        display: flex;
+        align-items: center;
+}
+
+.empresa, .pizza, .front{
+        font-size: 30px;
+        font-weight: bold;
+        color: #fff;
+}
+.empresa{
+        padding: 0 0 0 16px;
+}
+.pizza{
+        color: rgb(255, 0, 0);
+}
+.front{
+        color: green;
+}
+
+nav ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        width: 400px;
+}
+
+.item-nav{
+        color: #fff;
+        text-decoration: none;
+}
+
+
+/*-------- Estilos del main ---------*/
+
+main{
+        display: flex;
+        justify-content: center;
+        padding: 15px 0;
+}
+
+/* Sección de delivery */
+.delivery{
+        width: 490px;
+        height: 350px;
+        background-image: url("../img/delivery.jpg");
+        background-repeat: no-repeat;
+        padding: 16px;
+        border-radius: 5px;
+}
+
+.aviso{
+        color: rgb(252, 32, 12);
+        position: relative;
+        top: 20px;
+        left: 20px;
+}
+
+.compra{
+        color: #fff;
+}
+
+/* Sección de pizzas */
+.pizzas{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        width: 490px;
+}
+
+.nombre-podio{
+        text-align: center;
+        font-size: 24px;
+        color: rgb(255, 0, 0);
+}
+
+.ranking{
+        padding: 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.ranking h3{
+        font-size: 20px;
+}
+
+ol{
+        padding: 16px;
+        font-weight: bold;
+        line-height: 30px;
+}
+
+ol li{
+        padding: 0 16px;
+        font-size: 16px;
+}
+
+
+/*-------- Estilos del footer ---------*/
+
+footer{
+        background-color: rgb(50,50,50);
+        padding: 10px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+footer ul{
+        display: flex;
+        flex-direction: column;
+
+        list-style: none;
+        padding: 16px;
+        line-height: 30px;
+}
+
+.logotipo-footer{
+        padding: 16px;
+        display: flex;
+        align-items: center;
+}
+
+.logotipo-footer .empresa, .pizza, .front{
+        font-size: 24px;
+}
+
+
+

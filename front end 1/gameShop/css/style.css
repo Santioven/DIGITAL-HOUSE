@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+header {
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header nav {
+    display: flex;
+}
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+header ul li {
+    color: #F3F3F3;
+    
+}
